@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+    <link rel="stylesheet" type="text/css" href="stroop-L2.css">
+    <script src="./stroop-L2.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div id="start">
+        <button onclick="start()" id="st">Start exercise</button>
+    </div>
+    <div id="st_main">
+        <div class="scoring">
+            Your score:<p id="score">
+        </div>
+        <p style="color:red;font-size: 20px;"> Does the meaning match the text color?</p>
+        <div class="card">
+            <div id="mean"></div>
+        </div>
+        <div class="card">
+            <div id="q" ></div>
+        </div>
+        <button style="margin:20px" class="btn btn-dark" id="y" onclick="yes()" value="yes">Yes</button>
+        <button style="margin:10px" class="btn btn-dark"  id="n" onclick="no()"value="no">No</button>
+        <!-- <button onclick="getValue()">Value</button> -->
+        <!-- <p id="disp"></p> -->
+        <!--   <p id="score"></p> -->
+        <!-- <p id="score-x"></p>
+        <p id="score-y"></p> -->
+   </div>
+</html>
